@@ -1,0 +1,18 @@
+.nosotros-explicacion{
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    color: black;
+    padding: 20px;
+    border: 10px 
+}
+
+.estructura{
+    width: 100%;
+    height: 300px;
+    transition: 0.3s;
+
+    .estructura:hover{
+        scale: 1.5;
+        transition: 0.3s;
+    }
+}

@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: green;
+}
+header li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+header li a {
+  text-decoration: none;
+  color: white;
+}
+header li a:hover {
+  font-weight: bold;
+}
+
+body {
+  background-color: greenyellow;
+}
+
+footer {
+  background-color: green;
+  height: 100%;
+}
+
+h1 {
+  color: black;
+  padding: 40px;
+  text-align: center;
+  border: 10px solid black;
+}
+
+.mapa {
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card-img-top {
+  height: 163px;
+  width: 262px;
+}
+
+.divGaleria {
+  width: 546px;
+  height: 305px;
+  transition: 0.3s;
+}
+.divGaleria:hover {
+  scale: 1.2;
+  transition: 0.3s;
+}
+
+.nosotros-explicacion {
+  font-family: "Poppins" sans-serif;
+  font-style: normal;
+  color: black;
+  padding: 20px;
+  border: 10px;
+}
+
+.estructura {
+  width: 100%;
+  height: 300px;
+  transition: 0.3s;
+}
+.estructura .estructura:hover {
+  scale: 1.5;
+  transition: 0.3s;
+}
+
+main {
+  margin-top: auto;
+}
+
+.divisor {
+  justify-content: space-between;
+}
+
+.press {
+  text-align: center;
+}
+
+.musculacion-actividad, .crossfit-actividad {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+}
+
+.card {
+  background-color: rgb(74, 206, 96);
+}/*# sourceMappingURL=estilos.css.map */

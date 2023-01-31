@@ -1,0 +1,31 @@
+@import "generales";
+@import "precios";
+@import "galeria";
+@import "index";
+
+main{
+    margin-top: auto;
+}
+
+.divisor{
+    justify-content: space-between;
+}
+
+.press{
+    text-align: center;
+}
+
+.musculacion-actividad{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+}
+
+.crossfit-actividad{
+    @extend .musculacion-actividad
+}
+
+.card{
+    background-color: rgb(74, 206, 96);
+}
+

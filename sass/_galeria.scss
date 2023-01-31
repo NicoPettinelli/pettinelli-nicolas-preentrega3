@@ -1,0 +1,10 @@
+.divGaleria{
+    width: 546px;
+    height: 305px;
+    transition: 0.3s;
+
+    &:hover{
+        scale: 1.2;
+        transition: 0.3s;
+    }
+}
