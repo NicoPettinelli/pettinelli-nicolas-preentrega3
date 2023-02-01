@@ -29,3 +29,11 @@ main{
     background-color: rgb(74, 206, 96);
 }
 
+@mixin sizes ($width, $height){
+    height: $height;
+    width: $width;
+}
+
+
+
+    
