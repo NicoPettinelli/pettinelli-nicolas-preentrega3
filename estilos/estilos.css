@@ -89,4 +89,9 @@ main {
 
 .card {
   background-color: rgb(74, 206, 96);
+}
+
+.card-img-top {
+  height: 163px;
+  width: 262px;
 }/*# sourceMappingURL=estilos.css.map */

@@ -34,6 +34,7 @@ main{
     width: $width;
 }
 
+.card-img-top{
+    @include sizes(262px, 163px)
+    }
 
-
-    
